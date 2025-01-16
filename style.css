@@ -61,6 +61,20 @@ nav div{
     display: none;
 }
 
+.introduction{
+    outline: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction p{
+    font-size: 45px;
+}
+
+.introduction div{
+    padding: ;
+}
 
 /*Phone*/
 @media screen and (max-width:699px){
@@ -84,7 +98,7 @@ nav div{
     .logo{
         display: none;
     }
-    
+
     nav div{
         font-size: small;
    }
