@@ -2,7 +2,6 @@
 *{
     text-decoration: none;
     list-style-type: none;
-
 }
 
 body{
@@ -57,3 +56,39 @@ nav div{
     border: none;
     border-radius: 10px;
 }
+
+.menu{
+    display: none;
+}
+
+
+/*Phone*/
+@media screen and (max-width:699px){
+
+    nav, .contact_btn{
+        display: none;
+    }
+    
+    .menu{
+        display: flex;
+    }
+    .logo img, span{
+        height: 35px;
+        font-size: 30px;
+    }
+}
+
+/*tablet*/
+@media only screen and (min-width:699px) and (max-width:1000px){
+   
+    .logo{
+        display: none;
+    }
+    
+    nav div{
+        font-size: small;
+   }
+}
+
+/*Desktop*/
+@media screen and (min-width:1000px){}
