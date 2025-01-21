@@ -62,18 +62,46 @@ nav div{
 }
 
 .introduction{
-    outline: solid;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px 350px; 
 }
 
 .introduction p{
     font-size: 45px;
 }
 
-.introduction div{
-    padding: ;
+.introduction p:nth-child(1){
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.introduction span:not(span:nth-child(2)){
+    font-weight: 800;
+    background: linear-gradient(180deg, #b62472 0%, rgba(13, 28, 159, 0.375) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.introduction p span:nth-child(2){
+    font-weight:900;
+    color: black;
+}
+
+.introduction p:nth-child(2){
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro_btn{
+    background-color: #3D63EA;
+    color: white;
+    padding: 19px 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 400;
+    margin-top: 50px;
 }
 
 /*Phone*/
