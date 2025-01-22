@@ -240,11 +240,19 @@ nav div{
         opacity: 0.3;
         z-index: -1;
     }
-    .services_container{
+
+    .card{
+        text-align: center;
+        margin:0 ;
+    }
+    .card:nth-child(2n){
         display: none;
     }
-    .informations_container{
-        display: none;
+    .card:nth-child(3){
+        z-index: 2;
+    }
+
+    .informations_container:not(#video){
     }
     .circle, .circle_2{
         display: none;
