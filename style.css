@@ -223,6 +223,32 @@ nav div{
         height: 35px;
         font-size: 30px;
     }
+
+    .introduction{
+        padding: 25px;
+        flex-direction: column;
+        justify-self: center;
+        text-align: center;
+    }
+    .introduction span{
+        font-size: 50px;
+    }
+    .introduction div img{
+        position: absolute;
+        top: 50px;
+        left: 0;
+        opacity: 0.3;
+        z-index: -1;
+    }
+    .services_container{
+        display: none;
+    }
+    .informations_container{
+        display: none;
+    }
+    .circle, .circle_2{
+        display: none;
+    }
 }
 
 /*tablet*/
