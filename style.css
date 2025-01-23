@@ -196,7 +196,7 @@ nav div{
     font-size: 18px;
     font-weight: 300;
     color: gray;
-    line-height: 35px;
+    line-height: 55px;
 }
 .text span{
     background: linear-gradient(225deg, #F76680 0%, #57007B 100%);
@@ -259,6 +259,62 @@ nav div{
     background-color: #F7F7FA;
     margin-top: 50px;
     overflow-x: scroll;
+}
+
+.reviews_container{
+    padding: 150px 250px;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.reviews_comment{
+    padding-inline: 200px;
+    text-align: center;
+    font-size: 18px;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 55px
+}
+
+.reviews_comment h2{
+    color: black;
+    font-weight: 400;
+    font-size: 35px;
+}
+.reviews_comment p img:nth-child(1){
+    margin-right: 120%;
+}
+.reviews_comment p img:nth-child(2){
+    margin-left: 120%;
+    transform: scaleX(-1);
+}
+
+.reviews img{
+    display: flex;
+    justify-self: center;
+}
+
+.reviews_arrow{
+    display: absolute;
+    margin-top:-400px;
+    
+}
+.reviews_arrow img{
+    padding: 7px;
+    border: 2px solid;
+    border-color: #57007B;
+    border-radius: 100%;
+    margin-bottom: 50px;
+
+}
+.reviews_arrow img:nth-child(1){
+    transform: rotate(180deg);
 }
 
 /*Phone*/
