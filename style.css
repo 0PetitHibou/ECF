@@ -210,6 +210,57 @@ nav div{
     padding-top: 20px;
 }
 
+.partner{
+    font-size: 35px;
+    padding-left: 200px;
+    padding-top: 200px;
+}
+.partner p{
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+}
+.partner span{
+    font-weight: 400;
+
+}
+
+.btn_arrow{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-right: 100px;
+}
+
+
+
+.btn_arrow img{
+    border: solid #57007B;
+    border-radius: 100%;
+    padding: 8px;
+}
+
+.btn_arrow img:nth-child(1){
+    transform: rotate(180deg);
+}
+.btn_arrow img:nth-child(2){
+    border-color: #57007B;
+}
+
+.circle_3{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 55%;
+}
+
+.partner_carousel{
+    position: relative;
+    padding: 100px;
+    background-color: #F7F7FA;
+    margin-top: 50px;
+    overflow-x: scroll;
+}
+
 /*Phone*/
 @media screen and (max-width:699px){
 
