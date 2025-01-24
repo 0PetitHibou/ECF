@@ -68,9 +68,7 @@ nav div{
     padding: 50px 200px 50px 200px; 
 }
 
-.introduction p{
-    font-size: 45px;
-}
+.introduction p{font-size: 45px;}
 
 .introduction p:nth-child(1){
     font-size: 45px;
@@ -170,6 +168,10 @@ nav div{
     justify-content: space-around;
     padding-bottom: 35px;
 }
+.partner_carousel{
+    display: flex;
+    justify-content: center;
+}
 
 .informations_container{
     display: flex;
@@ -220,10 +222,7 @@ nav div{
     flex-direction: column;
     line-height: 25px;
 }
-.partner span{
-    font-weight: 400;
-
-}
+.partner span{font-weight: 400;}
 
 .btn_arrow{
     display: flex;
@@ -240,12 +239,8 @@ nav div{
     padding: 8px;
 }
 
-.btn_arrow img:nth-child(1){
-    transform: rotate(180deg);
-}
-.btn_arrow img:nth-child(2){
-    border-color: #57007B;
-}
+.btn_arrow img:nth-child(1){transform: rotate(180deg);}
+.btn_arrow img:nth-child(2){border-color: #57007B;}
 
 .circle_3{
     position: absolute;
@@ -261,9 +256,7 @@ nav div{
     overflow-x: scroll;
 }
 
-.reviews_container{
-    padding: 150px 250px;
-}
+.reviews_container{padding: 150px 250px 500px 250px;}
 
 .reviews{
     display: flex;
@@ -313,8 +306,49 @@ nav div{
     margin-bottom: 50px;
 
 }
-.reviews_arrow img:nth-child(1){
-    transform: rotate(180deg);
+.reviews_arrow img:nth-child(1){transform: rotate(180deg);}
+
+/*PORTFOLIO*/
+
+.portfolio_container{
+    background-color: #fafaff;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio_header{
+    justify-items: center;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 55px;
+    padding-bottom: 100px;
+}
+
+.portfolio{
+    outline: auto;
+    margin-inline: 150px;
+}
+
+.p_card{
+    outline: solid #6675F7 1px;
+    display: flex;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.p_text{
+    padding: 80px 50px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.read_more{
+    display: flex;
+    justify-self: flex-end;
+    gap: 5px;
+    margin-top: 140px;
+    margin-right: 40px;
 }
 
 /*Phone*/
@@ -368,6 +402,10 @@ nav div{
     .circle, .circle_2{
         display: none;
     }
+
+
+
+
 }
 
 /*tablet*/
@@ -385,10 +423,8 @@ nav div{
     display: ;
 
    }
-   .introduction img:hover{
-    
-   }
 }
+
 
 /*Desktop*/
 @media screen and (min-width:1000px){}
