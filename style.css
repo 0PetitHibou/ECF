@@ -370,7 +370,13 @@ nav div{
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 
+}
 
+
+.development_container img{
+    border: solid 1px gray;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 /*Phone*/
