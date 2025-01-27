@@ -372,11 +372,16 @@ nav div{
 
 }
 
+.development_container{
 
+display: flex;
+}
 .development_container img{
     border: solid 1px gray;
     border-radius: 10px;
     padding: 5px;
+    height: 59px ;
+    width: 56px;
 }
 
 /*Phone*/
