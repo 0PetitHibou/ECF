@@ -330,6 +330,7 @@ nav div{
 
 .portfolio{
     margin-inline: 20%;
+    padding-bottom: 100px;
 }
 
 .p_card{
@@ -371,6 +372,22 @@ nav div{
 
 }
 
+.read_more_case{
+    display: flex;
+    justify-self: flex-end;
+    margin-right: 5%;
+    padding-top: 25px;
+}
+.read_more_case div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: linear-gradient(225deg, #F76680 0%, #57007B 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
 .development_container{
     display: flex;
     justify-content: center;
@@ -386,10 +403,16 @@ nav div{
     height: 59px ;
     width: 56px;
 }
+
+.deco-line{
+    display: flex;
+    justify-content: center;
+}
+
 .development_card{
     display: flex;
     outline: auto;
-    flex-direction: column;
+    flex-direction: row;
     margin-inline: 20%;
 }
 .development_column1{
