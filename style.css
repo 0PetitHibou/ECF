@@ -467,9 +467,40 @@ nav div{
         z-index: 2;
     }
 
-    .informations_container:not(#video){
+    .informations_container{
+        flex-direction: column;
+    }
+    .information{
+        flex-direction: column;
+        text-align: center;
+        row-gap: 0;
+    }
+
+    .see_more{
+        justify-content: flex-end;
+    }
+    .see_more span{
+        font-size: 18px;
+    }
+    .see_more img{
+        margin-top: -10px;
+    }
+    .video{
+        display: flex;
+        margin-left: -100px;
+        justify-self: center;
+    }
+
+    .btn_arrow{
         display: none;
     }
+    .partner{
+        text-align: center;
+        padding-block: 50px;
+    }
+
+    .client{display: none;}
+
     .circle, .circle_2{
         display: none;
     }
