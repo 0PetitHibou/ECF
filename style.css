@@ -1,4 +1,8 @@
 
+.lite{
+    font-weight: 400;
+}
+
 *{
     text-decoration: none;
     list-style-type: none;
@@ -389,6 +393,7 @@ nav div{
 
 
 .development_container{
+    background-color: #f7f7fa;
     display: flex;
     justify-content: center;
 }
@@ -404,16 +409,18 @@ nav div{
     width: 56px;
 }
 
-.deco-line{
+.development_header{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .development_card{
     display: flex;
-    outline: auto;
+    outline: aut;
     flex-direction: row;
     margin-inline: 20%;
+    margin-block: 5%;
 }
 .development_column1{
     flex-direction: column;
@@ -421,6 +428,71 @@ nav div{
 .development_column2{
     flex-direction: column;
 }
+.development_column1 div, .development_column2 div{
+    border: solid grey 1px;
+    margin: 10px;
+}
+
+.hire_card{
+    margin:5% 15%;
+    padding:4%;
+    background-color: #E4ECF7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+.hire_card div:nth-child(1){
+    font-weight: 800;
+    font-size: 1.6em;
+    line-height: 45px;
+    
+}
+.hire_card div:nth-child(2){
+    color: white;
+    text-align: center;
+    background:linear-gradient(#FFC656, #F16063);
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+.hire_card img{
+    position: absolute;
+    right:21.5%;
+}
+
+
+.footer_card{
+    display: flex;
+    flex-direction: column;
+    margin-inline: 12%;
+    color: grey;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer div img{
+    margin-block: 5%;
+}
+
+.footer div:nth-child(2):not(h4){
+    margin: 0;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.footer div:nth-child(4){
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+
+
+.copyright{text-align: center;}
 
 /*Phone*/
 @media screen and (max-width:699px){
