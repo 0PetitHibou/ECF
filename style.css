@@ -581,6 +581,10 @@ body{
         z-index: 2;
     }
 
+    .card img{
+        display: none;
+    }
+
     .informations_container{
         display: flex;
         flex-direction: column;
@@ -591,6 +595,7 @@ body{
         text-align: center;
         row-gap: 0;
     }
+
 
     .see_more{
         justify-content: flex-end;
@@ -607,6 +612,65 @@ body{
     .btn_arrow{
         display: none;
     }
+
+    .video img{
+        display: flex;
+        width:80% ;
+        margin-inline: 10% ;
+    }
+
+    .reviews_comment{
+        margin: -140px;
+        margin-bottom: -380px;
+    }
+
+    .reviews_arrow{
+        display: none;
+    }
+    
+
+    .p_card_img{
+        width: 100%;
+        margin-right: 50%;
+
+    }
+    .p_card{
+        display: flex;
+        flex-direction: column;
+        margin-block: 12%;
+        padding: 0%;
+        justify-items: flex-end;
+    }
+    .p_text{
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+
+    }
+
+    .dev_div{
+        width: 80% ;
+        height: auto;
+        padding: 20px 60px 0px 60px;
+        gap: 50px;
+    }
+
+    .dev_txt div{
+        display: none;
+    }
+
+    .dev_image img{
+        margin: 0;
+    }
+
+    .dev_div txt h2{
+        padding: 0;
+    }
+
+
+
+
+
     .partner{
         text-align: center;
         padding-block: 50px;
@@ -617,8 +681,24 @@ body{
     .circle, .circle_2{
         display: none;
     }
+    
+    .footer{
+        margin-inline: -10%;
+        gap: 20px;
+    }
+
+    .footer div:nth-child(1){
+        width: 35%;
+    }
+
+    .footer div:nth-child(2){
+        line-height: 25px;
+    }
 
 
+    .footer div:nth-child(4){
+        flex-direction: column;
+    }
 
 
 }
