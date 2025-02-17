@@ -192,6 +192,19 @@ nav div{
     row-gap: 500px;
 }
 
+.video{
+    display: flex;
+    flex-direction: column;
+}
+
+/* changement 180 pourcent */
+
+.video img{
+    width:180%;
+    height: auto;
+}
+
+
 .text h4{
     margin: 0;
     padding-block: 20px;
@@ -356,7 +369,7 @@ nav div{
     flex: 1;
     padding: 80px 80px 0px 50px;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 25px;
     width: 50%;
 }
 .p_text h1{
@@ -401,36 +414,63 @@ nav div{
     display: absolute;
 }
 
-.development_container img:not(.deco-line){
-    border: solid 1px gray;
-    border-radius: 10px;
-    padding: 5px;
-    height: 59px ;
-    width: 56px;
-}
-
 .development_header{
     display: flex;
     justify-content: center;
     text-align: center;
+    padding-bottom: 8em ;
 }
 
-.development_card{
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.development_column{
+        display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 2%;
+    height:100%;
+    padding-bottom:5em;
+    gap: 2em;
+
+}
+
+.dev_div{
     display: flex;
-    outline: aut;
     flex-direction: row;
-    margin-inline: 20%;
-    margin-block: 5%;
+    gap: 1rem;
+    height: 200px;
+    width: 40%;
+    padding: 60px 60px;
+    border:solid 1px rgba(128, 128, 128, 0.348);
+    box-shadow: 0px 6px 10px rgba(128, 128, 128, 0.348);
+    background-color: white;
 }
-.development_column1{
+
+.dev_image{
+    flex-shrink: 0;
+    width: 10%;
+}
+.dev_image img{
+    height: 40px;
+    margin-top: 40px;
+}
+
+.dev_txt h2{
+    margin: 0;
+    padding-bottom: 1em;
+}
+
+.dev_txt{
+    display: flex;
     flex-direction: column;
-}
-.development_column2{
-    flex-direction: column;
-}
-.development_column1 div, .development_column2 div{
-    border: solid grey 1px;
-    margin: 10px;
+    justify-content: flex-start;
+    align-self: center;
+
 }
 
 .hire_card{
@@ -471,13 +511,15 @@ nav div{
 .footer{
     display: flex;
     justify-content: space-around;
+    padding-bottom: 50px;
+    border-bottom: solid 1px rgba(128, 128, 128, 0.466);
 }
 
 .footer div img{
     margin-block: 5%;
 }
 
-.footer div:nth-child(2):not(h4){
+.footer div:nth-child(2):not(){
     margin: 0;
     font-weight: 400;
     line-height: 35px;
@@ -495,7 +537,7 @@ nav div{
 .copyright{text-align: center;}
 
 /*Phone*/
-@media screen and (max-width:699px){
+@media screen and (min-width:500px) and (max-width:699px){
 
     nav, .contact_btn{
         display: none;
@@ -540,7 +582,9 @@ nav div{
     }
 
     .informations_container{
+        display: flex;
         flex-direction: column;
+        flex-wrap: wrap-reverse;
     }
     .information{
         flex-direction: column;
@@ -557,11 +601,8 @@ nav div{
     .see_more img{
         margin-top: -10px;
     }
-    .video{
-        display: flex;
-        margin-left: -100px;
-        justify-self: center;
-    }
+
+
 
     .btn_arrow{
         display: none;
