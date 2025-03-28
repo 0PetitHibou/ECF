@@ -667,10 +667,6 @@ body{
         padding: 0;
     }
 
-
-
-
-
     .partner{
         text-align: center;
         padding-block: 50px;
@@ -704,7 +700,7 @@ body{
 }
 
 /*tablet*/
-@media only screen and (min-width:699px) and (max-width:1000px){
+@media only screen and (min-width:699px) and (max-width:1270px){
    
     .logo{
         display: none;
@@ -714,12 +710,56 @@ body{
         font-size: small;
    }
 
-   .introduction img{
-    display: ;
-
+   .reviews_container {
+        padding-inline: 10em;
    }
+
+   .reviews {
+        align-content: center;
+   }
+
+   .reviews_arrow {
+    margin-top: -150px;
+   }
+
+    .client {
+        display: none;
+    }
+
+   .card:nth-child(2n){
+    display: none;
+   }
+
+   .card p{
+    font-size: 0.8em;
+   }
+
+   .p_card {
+    max-height: 250px;
+   }
+
+   .p_text {
+    padding: 0px 80px 0px 50px;
+   }
+
+   .p_text div:nth-child(2) {
+    display: none;
+   }
+   .p_text h1 {
+        line-height: 1.3em;
+   }
+
+   .p_card_img {
+    background-size: cover;
+   }
+   
+   .p_card_img img{
+    width: 100%;
+    height: 100%;
+    }
+
 }
 
 
 /*Desktop*/
-@media screen and (min-width:1000px){}
+@media screen and (min-width:1270px){}
