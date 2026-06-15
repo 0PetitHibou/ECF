@@ -1,7 +1,7 @@
 # ECF
 Première évaluation de formation
 
-#Exercice
+# Exercice
 Recopier une page d'un site internet et la rendre responsive.
 
 Editeur : VsCode
